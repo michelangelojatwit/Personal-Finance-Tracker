@@ -9,7 +9,7 @@ public class Purchase {
 	public Purchase() {
 		this.pName = "Unknown";
 		this.expenseVal = 0.0;
-		this.details = "No details available";
+		this.details = "No details ";
 	}
 
 	// Parameterized constructor
