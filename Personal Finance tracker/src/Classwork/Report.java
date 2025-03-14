@@ -1,7 +1,5 @@
 package Classwork;
 
-import java.util.Scanner;
-
 public class Report {
 	private Purchases purchases;
 	private SavingsPreference savingsPreference;
