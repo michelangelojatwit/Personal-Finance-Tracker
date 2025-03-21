@@ -26,6 +26,7 @@ public class Income {
 		double addedIncome = scanner.nextDouble();
 		monthly += addedIncome;
 		System.out.println("Income updated successfully!");
+		scanner.close();
 	}
 
 	// Getter for monthly income
