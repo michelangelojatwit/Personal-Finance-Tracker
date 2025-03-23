@@ -33,4 +33,9 @@ public class Income {
 	public double getIncome() {
 		return monthly;
 	}
+	
+	// Setter for updating income ( ONLY for file restoration, don't use this for anything else) - Joe M
+    public void setIncome(double monthly) {
+        this.monthly = monthly;
+    }
 }

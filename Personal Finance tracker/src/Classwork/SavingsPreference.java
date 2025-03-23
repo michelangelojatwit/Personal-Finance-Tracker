@@ -45,7 +45,7 @@ public class SavingsPreference {
         return preference;
     }
 
-    // Setters
+    // Setters (Used with restoring files as well, can be used otherwise for general use) - Joe M
     public void setPreference(double preference) {
         this.preference = preference;
     }
