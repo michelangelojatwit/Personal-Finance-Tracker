@@ -19,14 +19,9 @@ public class Income {
 		System.out.println("Current Monthly Income: $" + monthly);
 	}
 
-	// Updates income with user input
-	public void updateIncome() {
-		Scanner scanner = new Scanner(System.in);
-		System.out.print("Enter additional income for this month: ");
-		double addedIncome = scanner.nextDouble();
-		monthly += addedIncome;
-		System.out.println("Income updated successfully!");
-		scanner.close();
+	// Changed version of update income for GUI functionality ( DO NOT CHANGE THIS) - Joe M
+	public void updateIncome(double addedIncome) {
+	    this.monthly += addedIncome;
 	}
 
 	// Getter for monthly income

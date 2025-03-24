@@ -11,8 +11,15 @@ public class Purchase {
 		this.expenseVal = 0.0;
 		this.details = "No details ";
 	}
+	//Constructor with only the name
+	public Purchase(String name) {
+	    this.pName = name;
+	    this.expenseVal = 0.0;
+	    this.details = "No details ";
+	}
 
-	// Parameterized constructor
+		
+	// Parameterized constructor with all parameters 
 	public Purchase(String pName, double expenseVal, String details) {
 		this.pName = pName;
 		this.expenseVal = expenseVal;

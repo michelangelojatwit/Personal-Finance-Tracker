@@ -2,6 +2,7 @@ package Classwork;
 
 public class Main {
 	// Main method for testing ( Use this for anything needing testing, revert it back when finished) -Joe M
+	//IGNORE THIS METHOD NOW, PLEASE USE FINANCIALMANAGER FOR ALL TESTING - Joe M 3/23/25
     public static void main(String[] args) {
         // Creating purchases object and adding purchases (Change however you would like on these values below) - Joe M
         Purchases myPurchases = new Purchases();
