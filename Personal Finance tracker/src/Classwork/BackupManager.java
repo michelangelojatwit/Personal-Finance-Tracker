@@ -26,15 +26,17 @@ public class BackupManager {
 				String[] parts = line.split(": ");
 				if (parts.length == 2) {
 					switch (parts[0]) {
-						case "Income":
-							income.setIncome(Double.parseDouble(parts[1]));
-							break;
-						case "SavingsPreference":
-							savingsPreference.setPreference(Double.parseDouble(parts[1]));
-							break;
-						case "TotalSavings":
-							savingsPreference.setTotalSavings(Double.parseDouble(parts[1]));
-							break;
+					case "Income":
+						income.setIncome(Double.parseDouble(parts[1]));
+						break;
+
+					case "TotalSavings":
+						savingsPreference.setTotalSavings(Double.parseDouble(parts[1]));
+						break;
+
+					case "SavingsPreference":
+						savingsPreference.setPreference(Double.parseDouble(parts[1]));
+						break;
 					}
 				}
 			}
